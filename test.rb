@@ -23,7 +23,7 @@ end
 
 
 
-bot = make_bot(Cinch::Plugins::StockInfo)
+bot = make_bot(Cinch::StockInfo)
 
 ok = true
 tests.each do |input, outputs|
